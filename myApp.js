@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
 
+mongoose.connect(REACT_MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 let Person;
 
